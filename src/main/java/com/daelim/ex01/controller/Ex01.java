@@ -28,4 +28,11 @@ public class Ex01 {
 
         return ex01service.nowDate()+"";
     }
+
+    @GetMapping("/aws")
+    public String aws(){
+
+
+        return "awss3test";
+    }
 }
